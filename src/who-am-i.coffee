@@ -12,11 +12,8 @@
 #   <optional notes required for the script>
 #
 # Author:
-#   tsmsogn[@<org>]
+#   tsmsogn
 
 module.exports = (robot) ->
-  robot.respond /hello/, (msg) ->
-    msg.reply "hello!"
-
-  robot.hear /orly/, ->
-    msg.send "yarly"
+  robot.respond /who am i\?/i, (msg) ->
+    msg.reply msg.message.user.name
