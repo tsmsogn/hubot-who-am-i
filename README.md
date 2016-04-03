@@ -1,6 +1,6 @@
 # hubot-who-am-i
 
-Show current user info
+Display username
 
 See [`src/who-am-i.coffee`](src/who-am-i.coffee) for full documentation.
 
