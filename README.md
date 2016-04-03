@@ -1,6 +1,8 @@
 # hubot-who-am-i
 
-Show current user info
+[![Build Status](https://travis-ci.org/tsmsogn/hubot-who-am-i.svg?branch=master)](https://travis-ci.org/tsmsogn/hubot-who-am-i)
+
+Display username
 
 See [`src/who-am-i.coffee`](src/who-am-i.coffee) for full documentation.
 
