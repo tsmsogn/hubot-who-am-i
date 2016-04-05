@@ -1,19 +1,12 @@
 # Description
-#   Show current user info
-#
-# Configuration:
-#   LIST_OF_ENV_VARS_TO_SET
+#   Display your id and name
 #
 # Commands:
-#   hubot hello - <what the respond trigger does>
-#   orly - <what the hear trigger does>
-#
-# Notes:
-#   <optional notes required for the script>
+#   hubot who am i? - Display your id and name
 #
 # Author:
 #   tsmsogn
 
 module.exports = (robot) ->
   robot.respond /who am i\?/i, (msg) ->
-    msg.reply msg.message.user.name
+    msg.reply 'your id, name = ' + [msg.message.user.id, msg.message.user.name].join(', ')

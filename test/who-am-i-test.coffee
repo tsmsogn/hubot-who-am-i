@@ -32,6 +32,7 @@ describe 'who-am-i', ->
   it 'responds when asked, "who am i?"', (done) ->
     adapter.on 'reply', (envelope, strings) ->
       expect(strings[0]).to.match /フーアムアイ/
+      expect(strings[0]).to.match /523号/
       done()
 
     adapter.receive(new TextMessage user, 'hubot: who am i?')
@@ -39,6 +40,7 @@ describe 'who-am-i', ->
   it 'responds when asked, "WHO AM I?"', (done) ->
     adapter.on 'reply', (envelope, strings) ->
       expect(strings[0]).to.match /フーアムアイ/
+      expect(strings[0]).to.match /523号/
       done()
 
     adapter.receive(new TextMessage user, 'hubot: WHO AM I?')
