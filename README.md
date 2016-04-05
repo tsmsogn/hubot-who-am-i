@@ -22,5 +22,5 @@ Then add **hubot-who-am-i** to your `external-scripts.json`:
 
 ```
 user1>> hubot who am i?
-hubot>> user1
+hubot>> your id, name = 1, user1
 ```

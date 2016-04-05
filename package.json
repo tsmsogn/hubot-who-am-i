@@ -1,7 +1,7 @@
 {
   "name": "hubot-who-am-i",
   "description": "Display your id and name",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "tsmsogn <tsmsogn@gmail.com>",
   "license": "MIT",
   "keywords": [
